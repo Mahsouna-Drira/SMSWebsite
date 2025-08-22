@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Build outputs
+.dist/
+dist/
+.turbo/
+.swc/
+coverage/
+
+# Env files
+.env
+.env.*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+# Vercel/Netlify
+.vercel/
+.netlify/
