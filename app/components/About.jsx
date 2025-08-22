@@ -16,7 +16,9 @@ export default function About() {
             </p>
           </div>
           <div className="about-image">
-            <div className="conference-photo"></div>
+            <div className="crt-frame">
+              <img src="/speaker.png" alt="Keynote Speaker" className="about-speaker" />
+            </div>
           </div>
         </div>
       </div>
