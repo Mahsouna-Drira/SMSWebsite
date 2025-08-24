@@ -15,7 +15,8 @@ export default function Contact() {
               </div>
               <div className="contact-item">
                 <span className="contact-icon">📞</span>
-                <span>+216 55 555 555</span>
+                <span>Hanine Jridi OCVP DXP:</span>
+                <span>+216 51 969 211</span>
               </div>
               <div className="contact-item">
                 <span className="contact-icon">📍</span>

@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Lead\'n\'Lead',
-  description: 'Lead\'n\'Lead Official Website',
+  title: 'Lead & Lead',
+  description: 'Lead & Lead Official Website',
 }
 
 export default function RootLayout({ children }) {

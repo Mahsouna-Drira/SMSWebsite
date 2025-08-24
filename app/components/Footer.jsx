@@ -74,7 +74,6 @@ export default function Footer() {
             <div className="social-media">
               {[
                 { icon: 'instagram', label: 'Instagram', url: 'https://www.instagram.com/lead_and_lead/' },
-                { icon: 'instagram', label: 'Instagram', url: 'https://www.instagram.com/eb_tacapes/' }
               ].map((social) => (
                 <Link
                   key={social.label}
