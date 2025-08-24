@@ -3,11 +3,11 @@
 import { useState } from 'react';
 
 const navLinks = [
-  { href: '#about', label: 'About' },
-  { href: '#schedule', label: 'Schedule' },
-  { href: '#team', label: 'Team' },
-  { href: '#register', label: 'Register' },
-  { href: '#contact', label: 'Contact' },
+  { href: '/#about', label: 'About' },
+  { href: '/#schedule', label: 'Schedule' },
+  { href: '/#team', label: 'Team' },
+  { href: '/#register', label: 'Register' },
+  { href: '/#contact', label: 'Contact' },
 ];
 
 export default function Header() {
@@ -17,7 +17,7 @@ export default function Header() {
     <header className="header modern-navbar">
       <div className="container nav-flex">
         <div className="logo">
-          <a href="#">
+          <a href="/">
             <img src="/logo.png" alt="Lead & Lead Logo" height="48" />
           </a>
         </div>
@@ -43,4 +43,3 @@ export default function Header() {
     </header>
   );
 }
-

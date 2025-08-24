@@ -33,17 +33,17 @@ export default function Committees() {
   }, []);
 
   const committees = [
-    { name: 'AIESEC in Bardo', logo: '/LCs/Bardo.png' },
-    { name: 'AIESEC in Bizerte', logo: '/LCs/Bizerte.png' },
-    { name: 'AIESEC in Carthage', logo: '/LCs/Carthage.png' },
-    { name: 'AIESEC in Hadrumet', logo: '/LCs/Hadrumet.png' },
-    { name: 'AIESEC in Medina', logo: '/LCs/Medina.png' },
-    { name: 'AIESEC in Nabel', logo: '/LCs/Nabel.png' },
-    { name: 'AIESEC in Ruspina', logo: '/LCs/Ruspina.png' },
-    { name: 'AIESEC in Sfax', logo: '/LCs/Sfax.png' },
-    { name: 'AIESEC in Tacapes', logo: '/LCs/Tacapes.png' },
-    { name: 'AIESEC in Thyna', logo: '/LCs/Thyna.png' },
-    { name: 'AIESEC in University', logo: '/LCs/University.png' }
+    { name: 'AIESEC in Bardo', logo: '/LCs/Bardo.png', moto: '♾️ باردو نعطيها عينيا و وقت طويل' },
+    { name: 'AIESEC in Bizerte', logo: '/LCs/Bizerte.png', moto: '🌟 تعيش تعيش تعيش' },
+    { name: 'AIESEC in Carthage', logo: '/LCs/Carthage.png', moto: '⚔️لن تقع اثارنا أبدا' },
+    { name: 'AIESEC in Hadrumet', logo: '/LCs/Hadrumet.png', moto: '✊🏻 حضرموت هنا و ستحقق احلامها الكبرى' },
+    { name: 'AIESEC in Medina', logo: '/LCs/Medina.png', moto: '🪬مدينة ما ننساك' },
+    { name: 'AIESEC in Nabel', logo: '/LCs/Nabel.png', moto: '🌶️ نابل في القلب' },
+    { name: 'AIESEC in Ruspina', logo: '/LCs/Ruspina.png', moto: '🩸روسبينا أمانة' },
+    { name: 'AIESEC in Sfax', logo: '/LCs/Sfax.png', moto: '🌳لوكالي و نموت عليه' },
+    { name: 'AIESEC in Tacapes', logo: '/LCs/Tacapes.png', moto: '🌴تكاباس الحب' },
+    { name: 'AIESEC in Thyna', logo: '/LCs/Thyna.png', moto: '💡 المنارة الي تضويلي طريقي' },
+    { name: 'AIESEC in University', logo: '/LCs/University.png', moto: '🔥لوكال يشعل بالنار' }
   ];
 
   const totalSlides = Math.ceil(committees.length / itemsPerSlide);
@@ -81,6 +81,7 @@ export default function Committees() {
                         />
                       </div>
                       <h3>{committee.name}</h3>
+                      <h2 lang="ar" style={{ fontSize: '36px' }}>{committee.moto}</h2>
                     </div>
                   </div>
                 ))}

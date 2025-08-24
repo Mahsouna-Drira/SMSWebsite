@@ -23,8 +23,9 @@ export default function Schedule() {
             <div className="event-info-card">
               <div className="info-icon">💵</div>
               <h3>Fees</h3>
-              <p>EBs: 220 TND</p>
-              <p>Middle Managers: 150 TND</p>
+              <p>EBs: 215 TND</p>
+              <p>Middle Managers: 145 TND</p>
+              <p>Single Room: +58 TND</p>
             </div>
           </div>
           

@@ -17,7 +17,7 @@ export default function About() {
           </div>
           <div className="about-image">
             <div className="crt-frame">
-              <img src="/speaker.png" alt="Keynote Speaker" className="about-speaker" />
+              <img src="/Entity Picture.jpg" alt="Entity Picture" className="about-entity" />
             </div>
           </div>
         </div>
