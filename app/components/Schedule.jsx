@@ -17,7 +17,7 @@ export default function Schedule() {
               <div className="info-icon">📍</div>
               <h3>Venue</h3>
               <p>Soviva Hotel & Resort</p>
-              <p>Zone Touristique Sahloul, Sousse, Tunisia</p>
+              <p>Port El Kantaoui, Hammam Sousse 4011 Tunisie</p>
             </div>
             
             <div className="event-info-card">
