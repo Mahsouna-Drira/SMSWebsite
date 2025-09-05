@@ -52,7 +52,7 @@ export default function Schedule() {
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
-                title=""Amir Palace Location"
+                title="Amir Palace Location"
               ></iframe>
             </div>
           </div>
