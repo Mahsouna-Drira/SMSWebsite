@@ -20,7 +20,7 @@ export default function Contact() {
               </div>
               <div className="contact-item">
                 <span className="contact-icon">📍</span>
-                <span>Soviva Hotel & Resort, Sousse, Tunisie</span>
+                <span>Amir Palace, 5000 Monastir, Tunisia</span>
               </div>
             </div>
           </div>
