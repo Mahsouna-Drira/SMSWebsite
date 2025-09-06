@@ -25,7 +25,7 @@ export default function Schedule() {
               <h3>Fees</h3>
               <p>EBs: 215 TND</p>
               <p>Middle Managers: 145 TND</p>
-              <p>Single Room: +58 TND</p>
+              <p>Single Room: +63 TND</p>
             </div>
           </div>
           
