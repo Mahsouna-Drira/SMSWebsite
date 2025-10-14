@@ -10,7 +10,7 @@ export default function Schedule() {
             <div className="event-info-card">
               <div className="info-icon">📅</div>
               <h3>When</h3>
-              <p>October 24-25, 2025</p>
+              <p>October 24-25-26 , 2025</p>
             </div>
             
             <div className="event-info-card">
