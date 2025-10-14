@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="hero-content">
         <div className="hero-left">
           <p className="conference-subtitle">Sfax Motivational Seminar</p>
-          <p className="conference-date">October 24-25 , 2025</p>
+          <p className="conference-date">October 24-25-26 , 2025</p>
           <Link href="/registration" passHref>
             <button className="register-btn">
               <span className="register-icon">📝</span>
