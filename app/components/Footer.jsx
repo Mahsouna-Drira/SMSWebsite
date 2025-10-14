@@ -25,9 +25,7 @@ export default function Footer() {
               className="aiesec-main-logo"
             />
             <p className="aiesec-legal-text">
-              AIESEC International Inc. is registered as a Not-for-profit Organization under the Canadian 
-              Not-for-profit Corporations Act-2018-02-08, Corporation Number 1055154-and Quebec Business 
-              Number (NEQ) 457178 in Montreal, Quebec, Canada.
+             AIESEC is the world’s largest youth-led organization, present in over 100 countries and territories. It is a global platform for young people to explore and develop their leadership potential through cross-cultural exchanges, professional internships, and volunteer opportunities.
             </p>
           </div>
           {/* Column 2: Quick Links */}
@@ -56,14 +54,14 @@ export default function Footer() {
             <div className="logo-wrapper">
               <Image
                 src="/logo.png"
-                alt="Lead'n'Lead Logo"
+                alt="SMS Logo"
                 width={100}
                 height={100}
                 className="footer-logo"
                 priority
               />
               <p className="conference-title glow-text">
-                Lead'n'Lead Conference
+                Sfax Motivational Seminar 
               </p>
               <p className="conference-tagline">
                 Empowering Leaders of Tomorrow
@@ -73,7 +71,7 @@ export default function Footer() {
             {/* Social Media */}
             <div className="social-media">
               {[
-                { icon: 'instagram', label: 'Instagram', url: 'https://www.instagram.com/lead_and_lead/' },
+                { icon: 'instagram', label: 'Instagram', url: 'https://www.instagram.com/sms.2k25/' },
               ].map((social) => (
                 <Link
                   key={social.label}
@@ -97,7 +95,7 @@ export default function Footer() {
           color: #d1d5db;
           position: relative;
           overflow: hidden;
-          border-top: 1px solid rgba(153, 27, 27, 0.3);
+          border-top: 1px solid ;
         }
 
         .footer-background {
@@ -178,7 +176,7 @@ export default function Footer() {
           font-size: 18px;
           font-weight: 500;
           letter-spacing: 0.1em;
-          color: #ef4444;
+          color: #ffd700;
           text-transform: uppercase;
         }
 
@@ -207,7 +205,7 @@ export default function Footer() {
         .footer-heading {
           font-size: 18px;
           font-weight: 600;
-          color: #f87171;
+          color: #ffd700;
           letter-spacing: 0.05em;
           text-transform: uppercase;
           margin-bottom: 16px;
@@ -322,8 +320,8 @@ export default function Footer() {
         }
 
         .glow-text {
-          text-shadow: 0 0 8px rgba(239, 68, 68, 0.7),
-                     0 0 16px rgba(239, 68, 68, 0.5);
+          text-shadow: 0 0 8px rgb(255, 215, 0),
+                     0 0 16px rgb(255, 215, 0);
         }
       `}</style>
     </footer>

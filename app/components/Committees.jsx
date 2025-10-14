@@ -33,17 +33,8 @@ export default function Committees() {
   }, []);
 
   const committees = [
-    { name: 'AIESEC in Bardo', logo: '/LCs/Bardo.png', moto: '♾️ باردو نعطيها عينيا و وقت طويل' },
-    { name: 'AIESEC in Bizerte', logo: '/LCs/Bizerte.png', moto: '🌟 تعيش تعيش تعيش' },
-    { name: 'AIESEC in Carthage', logo: '/LCs/Carthage.png', moto: '⚔️لن تقع اثارنا أبدا' },
-    { name: 'AIESEC in Hadrumet', logo: '/LCs/Hadrumet.png', moto: '✊🏻 حضرموت هنا و ستحقق احلامها الكبرى' },
-    { name: 'AIESEC in Medina', logo: '/LCs/Medina.png', moto: '🪬مدينة ما ننساك' },
-    { name: 'AIESEC in Nabel', logo: '/LCs/Nabel.png', moto: '🌶️ نابل في القلب' },
-    { name: 'AIESEC in Ruspina', logo: '/LCs/Ruspina.png', moto: '🩸روسبينا أمانة' },
+   
     { name: 'AIESEC in Sfax', logo: '/LCs/Sfax.png', moto: '🌳لوكالي و نموت عليه' },
-    { name: 'AIESEC in Tacapes', logo: '/LCs/Tacapes.png', moto: '🌴تكاباس الحب' },
-    { name: 'AIESEC in Thyna', logo: '/LCs/Thyna.png', moto: '💡 المنارة الي تضويلي طريقي' },
-    { name: 'AIESEC in University', logo: '/LCs/University.png', moto: '🔥لوكال يشعل بالنار' }
   ];
 
   const totalSlides = Math.ceil(committees.length / itemsPerSlide);
@@ -56,8 +47,8 @@ export default function Committees() {
     <section className="committees-section">
       <div className="container">
         <div className="committees-content">
-          <h2>Participating Local Committees</h2>
-          <p className="committees-subtitle">Local Commitees from all over Tunisia</p>
+          <h2>The hosted Local Committee</h2>
+          <p className="committees-subtitle">Sfax</p>
           <div 
             className="committees-carousel"
             onMouseEnter={() => setIsPaused(true)}

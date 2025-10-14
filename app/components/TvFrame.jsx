@@ -2,11 +2,11 @@
 import React, { useState } from "react";
 
 const channels = [
-  { id: 'about', label: 'About' },
-  { id: 'schedule', label: 'Schedule' },
-  { id: 'team', label: 'Team' },
-  { id: 'register', label: 'Register' },
-  { id: 'contact', label: 'Contact' },
+  { id: 'About', label: 'About' },
+  { id: 'Schedule', label: 'Schedule' },
+  { id: 'Team', label: 'Team' },
+  { id: 'Register', label: 'Register' },
+  { id: 'Contact', label: 'Contact' },
 ];
 
 export default function TvFrame({ children }) {

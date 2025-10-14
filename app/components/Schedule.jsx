@@ -10,7 +10,7 @@ export default function Schedule() {
             <div className="event-info-card">
               <div className="info-icon">📅</div>
               <h3>When</h3>
-              <p>September 11-14, 2025</p>
+              <p>October 24-25, 2025</p>
             </div>
             
             <div className="event-info-card">
@@ -23,9 +23,7 @@ export default function Schedule() {
             <div className="event-info-card">
               <div className="info-icon">💵</div>
               <h3>Fees</h3>
-              <p>EBs: 215 TND</p>
-              <p>Middle Managers: 145 TND</p>
-              <p>Single Room: +63 TND</p>
+              <p>Participation Fees : 147 TND</p>
             </div>
           </div>
           

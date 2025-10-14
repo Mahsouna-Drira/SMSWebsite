@@ -9,17 +9,17 @@ export default function Team() {
   const [itemsPerSlide, setItemsPerSlide] = useState(3);
   
   const teamMembers = [
-    { name: "Walid Abdennebi", image: "walid.png", position: "OCP" },
-    { name: "Sadek Souei", image: "sadek.png", position: "OCVP ER" },
-    { name: "Wadii Jmaii", image: "wadi.png", position: "OC ER" },
-    { name: "Nour Chetoui", image: "nour.png", position: "OC ER" },
-    { name: "Sajed Bekri", image: "sajed.png", position: "OCVP MKT" },
-    { name: "Mohamed Jarboui", image: "jarboui.png", position: "OC MKT" },
-    { name: "Malek Guefrech", image: "malek.png", position: "OC MKT" },
-    { name: "Hanine Jridi", image: "hanine.png", position: "OCVP DXP" },
-    { name: "Bayrem Jbel", image: "bayrem.png", position: "OCVP LOG" },
-    { name: "Alaa Gaidi", image: "alae.png", position: "OC LOG&DXP" },
-    { name: "Mokhtar Kilani", image: "mokhtar.png", position: "OC LOG&DXP" }
+    { name: "Sami Ghorbel", image: "sami.jpg", position: "OCP" },
+    { name: "Hdiji Wassim", image: "wassim.jpeg", position: "OCVP LOG" },
+    { name: "Soulaima Zghal", image: "soulaima.jpg", position: "OC LOG" },
+    { name: "Yasmine Megdiche", image: "yasmine.jpg", position: "OC LOG" },
+    { name: "Tassnim Abdelkafi", image: "tassnim.jpg", position: "OCVP ER" },
+    { name: "Amine Kharrat", image: "amine.jpg", position: "OC ER" },
+    { name: "Mahsouna Drira", image: "mahsouna.jpg", position: "OCVP MKT" },
+    { name: "Amal Saadouli", image: "amal.jpeg", position: "OC MKT" },
+    { name: "Ahmed Mnif", image: "mnif.jpeg", position: "OC MKT" },
+    { name: "Khadija Mekki", image: "khadija.jpg", position: "OCVP DS&F" },
+    { name: "Salma Cherif", image: "salma.jpg", position: "OC DS" },
   ];
 
   const totalSlides = Math.ceil(teamMembers.length / itemsPerSlide);
@@ -68,7 +68,7 @@ export default function Team() {
       <div className="container">
         <div className="team-content">
           <h2>Meet Our Team</h2>
-          <p className="team-subtitle">The minds behind Lead'n'Lead Conference</p>
+          <p className="team-subtitle">Sfax Motivational Seminar</p>
           
           <div 
             className="team-carousel"

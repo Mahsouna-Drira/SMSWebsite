@@ -28,8 +28,8 @@ export default function Registration() {
           </div>
         </div>
         <div className="registration-cta">
-          <h3>Ready to Lead?</h3>
-          <p>Join us for an unforgettable leadership experience</p>
+          <h3>Ready for a new adventure?</h3>
+          <p>Join us for an unforgettable Conference</p>
           <Link href="/registration" passHref>
             <button className="register-btn"><span className="register-icon">📝</span>REGISTER NOW</button>
           </Link>

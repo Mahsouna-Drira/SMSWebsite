@@ -11,12 +11,12 @@ export default function Contact() {
             <div className="contact-details">
               <div className="contact-item">
                 <span className="contact-icon">📧</span>
-                <span>aiesec.tacapes@gmail.com</span>
+                <span>mekkikhadija@aiesec.net</span>
               </div>
               <div className="contact-item">
                 <span className="contact-icon">📞</span>
-                <span>Hanine Jridi OCVP DXP:</span>
-                <span>+216 51 969 211</span>
+                <span>Khadija Mekki OCVP DS</span>
+                <span>+216 52 014 818</span>
               </div>
               <div className="contact-item">
                 <span className="contact-icon">📍</span>

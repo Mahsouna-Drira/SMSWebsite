@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Lead & Lead',
-  description: 'Lead & Lead Official Website',
+  title: 'Sfax Motivational Seminar',
+  description: 'Sfax Motivational Seminar Official Website',
 }
 
 export default function RootLayout({ children }) {
